@@ -43,6 +43,10 @@ closet[0].class
 # => Array (.class is telling us what type of object it is. try: "hello".class if there is confusion)
 ```
 
+####CFU
+
+Using the term array, how did we organize our the data types in our "closet"?
+
 As we see above, nested arrays have provided a significant amount of organization to our "closet". To see just how powerful this behavior is (storing arrays within arrays), let's take this a step further and keep variables for our different closet sections:
 
 ```ruby
@@ -90,6 +94,10 @@ Do your best to drive this point home without getting into the verbiage of 'pass
 If we wanted to access a nested array, we can do so intuitively:
 
 **Note:** give them a moment to read this code line by line. Before executing the accesses by index at the bottom of the code snippet below, have it typed out and query the students for what will return.
+
+####IS
+
+Take 2 minutes to read the following code snippet. With your partner, predict what information the computer will return when outer_array[2][0] is executed? How about when outer_array[2][1] is executed? 
 
 ```ruby
 outer_array = ['Foo', 'Bar', ['Hello', 'World'], '!']
@@ -158,6 +166,8 @@ closet = {
     "formal" => ["flats", "heels", "pumps"]
   }
 }
+
+####CFU
 
 # We can work with the nested hashes just as you would expect
 # What will the following do to the `closet` hash?
