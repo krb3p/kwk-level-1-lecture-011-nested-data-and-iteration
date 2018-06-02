@@ -1,6 +1,3 @@
-**NOTE:** This lecture should be relatively short, with the majority of time being allocated for students to go through the lab material in groups/pairs.
-
-
 # Nested Iteration - Arrays and Hashes
 
 ## Objectives
@@ -179,3 +176,5 @@ closet["footwear"]["misc."] = ["cheetah slippers", "rain boots"]
 We just explored a very powerful feature: nesting data structures within others. As programmers, we are constantly using structures that enable us to more easily access and work with data. It is important to remember that accessing nested structures can be done step by step, starting at the top-most level and moving downward from there. 
 
 ##### [LAB: arrays, nested arrays, patterns][pattern-lab] (make sure you are familiar with this lab and the solution to it. If students get caught up, provide them with the guidance they need to keep moving through the deliverables.)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/kwk-level-1-lecture-011-nested-data-and-iteration'>Lecture 011: Nested Data And Iteration</a> on Learn.co and start learning to code for free.</p>
